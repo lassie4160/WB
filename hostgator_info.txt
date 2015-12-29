@@ -1,0 +1,10 @@
+CPanel Login
+	https://gator4076.hostgator.com:2083/
+	username: saras
+	pw: HelloDoggie5
+
+FTP
+	Host: woodburyhelp.com
+	username: saras
+	pw: HelloDoggie5
+

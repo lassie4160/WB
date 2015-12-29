@@ -1,0 +1,4 @@
+AuthName "Woodbury Internal"
+AuthUserFile "/home4/saras/.htpasswds/public_html/passwd"
+AuthType Basic
+require valid-user

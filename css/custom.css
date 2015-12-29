@@ -1,0 +1,42 @@
+/* This is a custom CSS stylesheet. */	
+
+body {
+	padding-top: 70px;
+}
+
+.label {
+	color: #000 !important;
+}
+
+h2 {
+	font-size: 20px !important;
+}
+
+@media print {
+	title {
+		display: none;
+	}
+	body {
+		padding-top: 0px;
+				}
+	
+	h2 {
+		font-size: 11pt;
+	}
+	
+	thead {
+		display: table-header-group;
+		font-size: 9pt;
+	}
+	tr.even    { page-break-inside: avoid; page-break-after: auto; }
+	tr.odd    { page-break-inside: avoid; page-break-after: auto; }
+	td {
+		font-size: 9pt;
+	}
+
+	p.description {
+		font-size: 8px;
+	}
+	
+
+	}
